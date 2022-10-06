@@ -24,7 +24,15 @@ public class CalculatorTest {
         int firstValue = 4;
         int secondValue = 3;
         int expected = 5;
-        Assert.assertEquals(expected, calculator.sum(firstValue, secondValue), EPS);
+        Assert.assertEquals(expected, calculator.length(firstValue, secondValue), EPS);
+    }
+
+    @Test
+    public void checkDivideValues() {
+        int firstValue = 12;
+        int secondValue = 3;
+        int expected = 4;
+        Assert.assertEquals(expected, calculator.divide(firstValue, secondValue), EPS);
     }
 
 
