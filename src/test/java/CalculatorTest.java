@@ -11,7 +11,7 @@ public class CalculatorTest {
         calculator = new Calculator();
     }
 
-    @Test(expected = ArithmeticException.class)
+    @Test
     public void checkSumValues() {
         int firstValue = 5;
         int secondValue = 5;
@@ -19,13 +19,17 @@ public class CalculatorTest {
         Assert.assertEquals(expected, calculator.sum(firstValue, secondValue), EPS);
     }
 
-    @Test(expected = ArithmeticException.class)
+    @Test
     public void checkLengthValues() {
         int firstValue = 4;
         int secondValue = 3;
         int expected = 5;
         Assert.assertEquals(expected, calculator.sum(firstValue, secondValue), EPS);
     }
+
+
+
+
 
 
 
