@@ -23,7 +23,7 @@ public class CalculatorTest {
     public void checkLengthValues() {
         int firstValue = 4;
         int secondValue = 3;
-        int expected = 5;
+        int expected = 25;
         Assert.assertEquals(expected, calculator.length(firstValue, secondValue), EPS);
     }
 
@@ -39,7 +39,7 @@ public class CalculatorTest {
     public void checkDensityValues() {
         int firstValue = 10;
         int secondValue = 5;
-        int expected = 5;
+        int expected = 2;
         Assert.assertEquals(expected, calculator.density(firstValue, secondValue), EPS);
     }
 
