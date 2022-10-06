@@ -35,6 +35,14 @@ public class CalculatorTest {
         Assert.assertEquals(expected, calculator.divide(firstValue, secondValue), EPS);
     }
 
+    @Test
+    public void checkDensityValues() {
+        int firstValue = 10;
+        int secondValue = 5;
+        int expected = 5;
+        Assert.assertEquals(expected, calculator.density(firstValue, secondValue), EPS);
+    }
+
 
 
 
