@@ -1,19 +1,19 @@
 public class Calculator {
 
 
-    private int sum(int firstValue, int secondValue) {
+    public int sum(int firstValue, int secondValue) {
         return 0;
     }
 
-    private double length(int firstValue, int secondValue) {
+    public double length(int firstValue, int secondValue) {
         return 0;
     }
 
-    private int divide(int firstValue, int secondValue) {
+    public int divide(int firstValue, int secondValue) {
         return 0;
     }
 
-    private int density(int weight, int volume) {
+    public int density(int weight, int volume) {
         return 0;
     }
 
